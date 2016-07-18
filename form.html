@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ubermelon Order Form</title>
+    </head>
+    <body>
+        <h1>Order!</h1>
+        <table>
+            <tr>
+                <th>Melon Name</th>
+                <th>Price per lb</th>
+            </tr>
+            <tr>
+                <td>Watermelon</td>
+                <td>$1.59</td>
+            </tr>
+            <tr>
+                <td>Honeydew</td>
+                <td>$0.99</td>
+            </tr>
+            <tr>
+                <td>Cantaloupe</td>
+                <td>$1.29</td>
+            </tr>
+            <tr>
+                <td>Crenshaw</td>
+                <td>$2.19</td>
+            </tr>
+            <tr>
+                <td>Canary</td>
+                <td>$11.99</td>
+            </tr>
+        </table>
+        <p>Place your orders here! You know you want to.</p>
+        <form action="" method="GET">
+            <label for="firstname">First Name </label><input type="text" name="firstname" id="firstname"><br>
+            <label for="lastname">Last Name </label><input type="text" name="lastname" id="lastname"><br>
+            <label for="melontype">Melon Type</label>
+                <select name="melontype" id="melontype">
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Honeydew">Honeydew</option>
+                    <option value="Cantaloupe">Cantaloupe</option>
+                    <option value="Crenshaw">Crenshaw</option>
+                    <option value="Canary">Canary</option>
+                </select>
+            <br>
+            <label for="quantity">Quantity </label><input type="text" name="quantity" id="quantity"><br>
+            Delivery Time 
+            <label><input type="radio" name="time" id="time" value="am">AM</label>
+            <label><input type="radio" name="time" id="time" value="pm">PM</label>
+            <label><input type="radio" name="time" id="time" value="wat">Wat</label><br>
+            Returning Customer 
+            <label><input type="radio" name="customer" value="yes">Yes</label>
+            <label><input type="radio" name="customer" value="no">No</label><br>
+            For Statistical Purposes:
+            <label><input type="checkbox" name="stats" value="dog">Dog</label>
+            <label><input type="checkbox" name="stats" value="cat">Cat</label>
+            <label><input type="checkbox" name="stats" value="hedgehog">Hedgehog</label>
+            <label><input type="checkbox" name="stats" value="balloonicorn">Balloonicorn</label>
+            <label><input type="checkbox" name="stats" value="yak">Yak</label><br>
+            <input type="submit">
+        </form> 
+        <footer>*Quantities given are by the flat.</footer>
+    </body>
+</html>
